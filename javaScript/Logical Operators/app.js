@@ -1,15 +1,21 @@
-let mystery = 5;
+1 <= 4 && "a" === "a"; // true
+9 > 10 && 9 >= 9; // false
 
-if (mystery) {
-  console.log("Truthy");
+let password = "chickenGal";
+
+if (password.length >= 8 && password.indexOf(" ") === -1) {
+  console.log("Valid Password");
 } else {
-  console.log("FALSY");
+  console.log("Invalid Password");
 }
 
-let loggedInUser = "achamberlain008";
+1 !== 1 || 10 === 10; // true
+1 === 2 || 2 === 3; // false
 
-if (loggedInUser) {
-  console.log("You are logged in!");
+let age = 76;
+
+if (age < 6 || age >= 65) {
+  console.log("Valid");
 } else {
-  console.log("Please Log In!");
+  console.log("Invalid");
 }

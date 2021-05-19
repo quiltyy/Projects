@@ -1,10 +1,15 @@
-1 <= 4 && "a" === "a"; // true
-9 > 10 && 9 >= 9; // false
+let mystery = 5;
 
-let password = "chickenGal";
-
-if (password.length >= 8 && password.indexOf(" ") === -1) {
-  console.log("Valid Password");
+if (mystery) {
+  console.log("Truthy");
 } else {
-  console.log("Invalid Password");
+  console.log("FALSY");
+}
+
+let loggedInUser = "achamberlain008";
+
+if (loggedInUser) {
+  console.log("You are logged in!");
+} else {
+  console.log("Please Log In!");
 }
