@@ -12,5 +12,20 @@
       "badge.background": "#16161d",
       "activityBarBadge.background": "#16161d"
     }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "pwa-node",
+        "request": "launch",
+        "name": "Launch Program",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "program": "/Users/andrewchamberlain/Projects/javaScript/Switch Statement/app.js",
+        "__workspaceFolder": "/Users/andrewchamberlain/Projects/javaScript/Switch Statement"
+      }
+    ]
   }
 }
