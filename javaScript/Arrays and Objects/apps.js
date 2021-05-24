@@ -59,3 +59,25 @@ let ingredients = [
 
 ingredients.includes("fish");
 if (ingredients.inclueds("water")) ingredients.indexOf("cheese");
+
+// Reverse
+// (Changes the actual variable.)
+let letters = ["T", "C", "E", "P", "S", "E", "R"];
+letters.reverse();
+
+// Join - Combines all the values of an array into one string.
+// Adding a value to the method inserts the value between each (Default is ,)
+letters.join();
+letters.join("&");
+
+//Slice
+// Takes Portion of array and copy it into a new array
+let animals = ["shark", "salmon", "whale", "bear", "lizard", "tortoise"];
+
+// Selects from up to but no including the second index value
+let swimmers = animals.slice(0, 3);
+let mammals = animals.slice(2, 4);
+let reptiles = animals.slice(4);
+let quadrupeds = animals.slice(-3);
+// can call animals.slice(); to copy the entire array
+let copyOfAnimals = animals.slice();
