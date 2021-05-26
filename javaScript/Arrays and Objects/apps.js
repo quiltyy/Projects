@@ -84,7 +84,7 @@ let copyOfAnimals = animals.slice();
 
 //  ======== Splice - Remove or Replace an element.
 // .splice(startIndex, deleteCount, itemsToInsert);
-let animals = ["shark", "salmon", "whale", "bear", "lizard", "tortoise"];
+//et animals = ["shark", "salmon", "whale", "bear", "lizard", "tortoise"];
 
 // Inserting w/ Splice
 // At index 1, delete 0 items and insert octopus
@@ -96,7 +96,7 @@ animals.splice(3, 2);
 
 // Replacing w/ Splice
 // At index 3 delete 2 items and replace them with snake and frog
-animals.splice(3, 0, "snake", "frog");
+animals.splice(5);
 
 // ========== Sort
 // Updates and replaces the array with the changed order
@@ -115,5 +115,5 @@ const animalPairs = [
   ["peaham", "peacock"],
 ];
 
-consol.log(animalPairs[2][0]); // Returns peaham
+consol.log(animalPair[2][0]); // Returns peaham
 animalPairs[0][1] = "stag"; // Changes buck to stag
