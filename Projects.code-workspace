@@ -7,9 +7,6 @@
   ],
   "settings": {
     "extensions.ignoreRecommendations": true,
-    "scm.defaultViewMode": "tree",
-    "workbench.colorCustomizations": {
-      "badge.background": "#16161d",
-      "activityBarBadge.background": "#16161d"
-    }
+    "scm.defaultViewMode": "tree"
   }
+}
