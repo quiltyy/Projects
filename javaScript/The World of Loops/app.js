@@ -134,16 +134,65 @@
 // console.log("========");
 
 // ==== FOR...OF
-let subreddits = ["soccer", "popheads", "cringe", "books"];
+// let subreddits = ["soccer", "popheads", "cringe", "books"];
 
-for (let i = 0; i < subreddits.length; i++) {
-  console.log(subreddits[i]);
+// for (let i = 0; i < subreddits.length; i++) {
+//   console.log(subreddits[i]);
+// }
+
+// for (let sub of subreddits) {
+//   console.log(sub);
+// }
+
+// for (let char of "cocadoodledoo") {
+//   console.log(char.toUpperCase());
+// }
+
+// const magicSquare = [
+//   [2, 7, 6],
+//   [9, 5, 1],
+//   [4, 3, 8],
+// ];
+
+// for (let i = 0; i < magicSquare; i++) {
+//   let row = magicSquare[i];
+//   let sum = 0;
+//   for (let j; j < row.length; j++) {
+//     console.log(row[j]);
+//     sum += row[j];
+//   }
+//   console.log(`${row} summed to ${sum}`);
+// }
+
+// for (let row of magicSquare) {
+//   let sum = 0;
+//   for (let num of row) {
+//     sum += num;
+//   }
+//   console.log(`${row} summed to ${sum}`);
+// }
+
+// When you care about the index / position of an element use a traditional For Loop.
+
+const movieReviews = {
+  Arrival: 9.5,
+  Alien: 9,
+  Amelie: 8,
+  "In Bruges": 9,
+  Amadeus: 10,
+  "Kill Bill": 8,
+  "Little Miss Sunshine": 8.5,
+  Coraline: 7.5,
+};
+
+for (let movie of Object.keys(movieReviews)) {
+  console.log(movie), movieReviews[movie];
 }
 
-for (let sub of subreddits) {
-  console.log(sub);
+const ratings = Object.values(movieReviews);
+let total = 0;
+for (let r of ratings) {
+  total += r;
 }
-
-for (let char of "cocadoodledoo") {
-  console.log(char.toUpperCase());
-}
+let average = total / ratings.length;
+console.log(average);
