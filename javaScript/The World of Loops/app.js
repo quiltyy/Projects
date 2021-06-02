@@ -174,25 +174,45 @@
 
 // When you care about the index / position of an element use a traditional For Loop.
 
-const movieReviews = {
-  Arrival: 9.5,
-  Alien: 9,
-  Amelie: 8,
-  "In Bruges": 9,
-  Amadeus: 10,
-  "Kill Bill": 8,
-  "Little Miss Sunshine": 8.5,
-  Coraline: 7.5,
-};
+// const movieReviews = {
+//   Arrival: 9.5,
+//   Alien: 9,
+//   Amelie: 8,
+//   "In Bruges": 9,
+//   Amadeus: 10,
+//   "Kill Bill": 8,
+//   "Little Miss Sunshine": 8.5,
+//   Coraline: 7.5,
+// };
 
-for (let movie of Object.keys(movieReviews)) {
-  console.log(movie), movieReviews[movie];
-}
+// for (let movie of Object.keys(movieReviews)) {
+//   console.log(movie), movieReviews[movie];
+// }
 
-const ratings = Object.values(movieReviews);
-let total = 0;
-for (let r of ratings) {
-  total += r;
-}
-let average = total / ratings.length;
-console.log(average);
+// const ratings = Object.values(movieReviews);
+// let total = 0;
+// for (let r of ratings) {
+//   total += r;
+// }
+// let average = total / ratings.length;
+// console.log(average);
+
+// ===== For ... In ==== Better for property analysis, don't use with Arrays.
+// const jeopardyWinnings = {
+//   regularPlay: 2522700,
+//   watsonChallenge: 300000,
+//   tournamentOfChampions: 500000,
+//   battleOfTheDecades: 100000,
+// };
+
+// for (let prop in jeopardyWinnings) {
+//   console.log(prop);
+//   console.log(jeopardyWinnings[prop]);
+// }
+
+// let total = 0;
+// for (let prop in jeopardyWinnings) {
+//   total += jeopardyWinnings[prop];
+// }
+
+// console.log(`Ken Jennings Total Earnings: ${total}`);
