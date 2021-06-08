@@ -10,7 +10,7 @@
 //   console.log("FOR THE LAST TIME...");
 //   console.log("LEAVE ME ALONE");
 // }
-// for (let i = 0; i <= 15; i++) {
+// for (let i = ki0; i <= 15; i++) {
 //   grumpus();
 // }
 
@@ -85,14 +85,59 @@
 //avg([0,50]) //25
 //avg([75,76,80,95,100]) //85.2
 
-function isPangram(sentence) {
-  for (let char of "abcdefghijklmnopqrstuvwxyz") {
-    if (sentence.toLowerCase().indexOf(char) === -1) {
-      return false;
-    }
+// function isPangram(sentence) {
+//   for (let char of "abcdefghijklmnopqrstuvwxyz") {
+//     if (sentence.toLowerCase().indexOf(char) === -1) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// isPangram("The five boxing wizards jump quickly");
+// isPangram("The five boxing wizards jump quick");
+
+function timeForMilkAndCookies(date) {
+  if (date.getDay() === 23 && date.getMonth() === 11) {
+    return true;
   }
-  return true;
+  return false;
 }
 
-isPangram("The five boxing wizards jump quickly");
-isPangram("The five boxing wizards jump quick");
+// Write a getCard() function which returns a random playing card object, like:
+// 		{
+// 			value: 'K'
+// 			suit: 'clubs'
+// 		}
+//Pick a random value from:
+//----1,2,3,4,5,6,7,8,9,10,J,Q,K,A
+//Pick a random suit from:
+//----clubs,spades, hearts, diamonds
+//Return both in an object
+
+function getCard() {
+  const values = [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "J",
+    "Q",
+    "K",
+    "A",
+  ];
+  const valIdx = Math.floor(Math.random() * values.length);
+  const value = values[valIdx];
+  const suits = ["clubs", "spades", "hearts", "diamonds"];
+  const suitIdx = Math.floor(Math.random() * suits.length);
+  const suit = suits[suitIdx];
+  return { value: value, suit: suit };
+}
+
+getCard();
