@@ -17,11 +17,28 @@
 // //  console.log(i);
 // // }
 
-// // FOR LOOPS & ARRAYS
+// FOR LOOPS & ARRAYS
 // const animals = ["lions", "tigers", "bears"];
 // for (let i = 0; i < animals.length; i++) {
 //   console.log(i, animals[i]);
 // }
+
+function sc(floors) {
+  let sounds = [];
+  if (floors <= 1) {
+    console.log("Safe");
+  } else if (floors > 1) {
+    i = 0;
+    while (i < floors - 1) {
+      sounds.push("Ahh");
+      i++;
+    }
+    sounds.push("*Saved By Superman*");
+    console.log(sounds);
+  }
+}
+
+sc(11);
 
 // const myStudents = [
 //   {
