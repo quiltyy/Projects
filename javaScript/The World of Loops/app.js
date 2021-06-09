@@ -233,3 +233,11 @@ sc(11);
 // }
 
 // console.log(`Ken Jennings Total Earnings: ${total}`);
+
+function repeatStr(n, s) {
+  str = "";
+  for (let i = 0; i <= n; i++) {
+    str + s;
+  }
+  return str;
+}
