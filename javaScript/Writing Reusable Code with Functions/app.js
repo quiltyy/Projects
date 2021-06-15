@@ -115,29 +115,23 @@ function timeForMilkAndCookies(date) {
 //----clubs,spades, hearts, diamonds
 //Return both in an object
 
-function getCard() {
-  const values = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "J",
-    "Q",
-    "K",
-    "A",
-  ];
-  const valIdx = Math.floor(Math.random() * values.length);
-  const value = values[valIdx];
-  const suits = ["clubs", "spades", "hearts", "diamonds"];
-  const suitIdx = Math.floor(Math.random() * suits.length);
-  const suit = suits[suitIdx];
-  return { value: value, suit: suit };
+let value = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
+let suit = ["Clubs", "Spades", "Hearts", "Diamonds"];
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
 }
 
-getCard();
+function getCard() {
+  let randValue = value[getRandomInt(value.length)];
+  let randSuit = suit[getRandomInt(suit.length)];
+  let card = `Value : ${randValue}, Suit : ${randSuit}`;
+  console.log(card);
+  return card;
+}
+
+function deal(size) {
+  for (let i = 0; i <= size - 1; i++) {
+    getCard();
+  }
+}

@@ -1,10 +1,10 @@
-// CHECK IF NUMBER EVEN OR ODD
+// ====== CHECK IF NUMBER EVEN OR ODD
 // function even_or_odd(number) {
 //   ...
 //   return number % 2 === 0 ? "even" : "odd";
 // }
 
-// CHECK STRING FOR CERTAIN LETTERS
+// ====== CHECK STRING FOR CERTAIN LETTERS
 // function getCount(str) {
 //   var vowelsCount = 0;
 //   var vowels = ["a","e","i","o","u"];
@@ -15,6 +15,48 @@
 //       }
 //     }
 //   }
-
 //   return vowelsCount;
+// }
+
+// ====== CONVERT NUMBERS TO STRING
+// function numberToString(num) {
+//     return num.toString();
+//   }
+
+// ====== REMOVE SPACES FROM STRING
+// function noSpace(x){
+//     combine = x.split(' ').join('');
+//     return combine
+//   }
+
+// ====== GET RANDOM INTEGER
+// function getRandomInt(max) {
+//   return Math.floor(Math.random() * max);
+// }
+
+// ====== RUN FUNCTION X TIMES
+// function deal(size) {
+//   for (let i = 0; i <= size - 1; i++) {
+//     getCard();
+//   }
+// }
+
+// ====== DOUBLE AN ARRAY
+// function doubleArr(arr) {
+//   const result = [];
+//   for (let num of arr) {
+//     let double = num * 2;
+//     result.push(double);
+//   }
+//   return result;
+// }
+
+// ====== REVERSE WORDS IN A STRING BUT NOT ORDER
+// function reverseWords(str) {
+//   // Go for it
+//   const final = [];
+//   for (let word of str.split(" ")) {
+//     final.push(word.split("").reverse().join(""));
+//   }
+//   return final.join(" ");
 // }

@@ -6,7 +6,6 @@
     }
   ],
   "settings": {
-    "extensions.ignoreRecommendations": true,
     "scm.defaultViewMode": "tree",
     "liveServer.settings.multiRootWorkspaceName": "Projects"
   }
