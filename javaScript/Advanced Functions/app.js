@@ -36,25 +36,69 @@
 
 // ===== Function Expression
 
-const add = function (x, y) {
-  return x + y;
-};
+// const add = function (x, y) {
+//   return x + y;
+// };
 
-const subtract = function (x, y) {
-  return x - y;
-};
+// const subtract = function (x, y) {
+//   return x - y;
+// };
 
-const multiply = function (x, y) {
-  return x * y;
-};
+// const multiply = function (x, y) {
+//   return x * y;
+// };
 
-const divide = function (x, y) {
-  return x / y;
-};
+// const divide = function (x, y) {
+//   return x / y;
+// };
 
-const operations = [add, subtract, multiply, divide];
+// const operations = [add, subtract, multiply, divide];
 
-for (let func of operations) {
-  let result = func(30, 5);
-  console.log(result);
+// for (let func of operations) {
+//   let result = func(30, 5);
+//   console.log(result);
+// }
+
+// ======= Functions as Arugemnts
+
+// function callTwice(func) {
+//   func();
+//   func();
+// }
+
+// function laugh() {
+//   console.log("HAHAHAHAH");
+// }
+
+// function rage() {
+//   console.log("I HATE EVERYTHING");
+// }
+
+// function repeatNTime(action, num) {
+//   for (let i = 0; i < num; i++) {
+//     action();
+//   }
+// }
+
+// function pickOne(f1, f2) {
+//   let rand = Math.random();
+//   if (rand < 0.5) {
+//     f1();
+//   } else {
+//     f2();
+//   }
+// }
+
+// pickOne(laugh, rage);
+
+function multiplyBy(num) {
+  return function (x) {
+    return x * num;
+  };
 }
+
+const triple = multiplyBy(3);
+const double = multiplyBy(2);
+const halve = multiplyBy(0.5);
+
+triple(6);
