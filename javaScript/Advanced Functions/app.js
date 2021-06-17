@@ -91,14 +91,24 @@
 
 // pickOne(laugh, rage);
 
-function multiplyBy(num) {
-  return function (x) {
-    return x * num;
-  };
+// function multiplyBy(num) {
+//   return function (x) {
+//     return x * num;
+//   };
+// }
+
+// const triple = multiplyBy(3);
+// const double = multiplyBy(2);
+// const halve = multiplyBy(0.5);
+
+// triple(6);
+
+function makeBetweenFunc(x,y);{
+return function(num){
+  return num >= x && num <= y;
+  }
 }
 
-const triple = multiplyBy(3);
-const double = multiplyBy(2);
-const halve = multiplyBy(0.5);
-
-triple(6);
+const isChild = makeBetweenFunc(0, 17);
+const bornInNinties = makeBetweenFunc(1990, 1999);
+const isNiceWeather = makeBetweenFunc(65, 79);
