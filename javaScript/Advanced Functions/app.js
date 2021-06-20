@@ -103,12 +103,25 @@
 
 // triple(6);
 
-function makeBetweenFunc(x,y);{
-return function(num){
-  return num >= x && num <= y;
-  }
-}
+// function makeBetweenFunc(x,y);{
+// return function(num){
+//   return num >= x && num <= y;
+//   }
+// }
 
-const isChild = makeBetweenFunc(0, 17);
-const bornInNinties = makeBetweenFunc(1990, 1999);
-const isNiceWeather = makeBetweenFunc(65, 79);
+// const isChild = makeBetweenFunc(0, 17);
+// const bornInNinties = makeBetweenFunc(1990, 1999);
+// const isNiceWeather = makeBetweenFunc(65, 79);
+
+// function grumpus(){
+//     alert("GAHHH GO AWAY!")
+// }
+
+// setTimeout(function(){
+//     alert("WELCOME!");
+// }, 5000);
+
+const btn = document.querySelector('button');
+btn.addEventListener('click', function () {
+    alert("Can't You Read!")
+})
