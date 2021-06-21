@@ -123,5 +123,7 @@
 
 const btn = document.querySelector('button');
 btn.addEventListener('click', function () {
-    alert("Can't You Read!")
+  alert("Can't You Read!")
 })
+
+// ==== HOISTING ==== 
