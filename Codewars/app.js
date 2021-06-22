@@ -60,3 +60,25 @@
 //   }
 //   return final.join(" ");
 // }
+
+
+// function nbYear(p0, percent, aug, p) {
+//     let i = 0;
+//     percent = percent / 100;
+//     console.log(percent);
+//     while (p0 < p) {
+//       p0 += p0 * percent + aug;
+//       i++
+//     }
+//     return i
+
+//     // your code
+//   }
+
+
+// ======= IS THE INTEGER A SQUARE
+// var isSquare = x => {
+//     return Math.sqrt(x) % 1 === 0
+// }
+
+// isSquare(9)

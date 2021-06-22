@@ -45,15 +45,15 @@ const abbrevs = words.map(function (word) {
 })
 
 // Arrow Functions
-//Basically empty function alternative for single parameters
+// Basically empty function alternative for single parameters
 
-// const square = function (x) {
-//     return x + x;
-// }
-// Same thing as: 
-const square = (x) => {
-    return x * x;
+const square = function (x) {
+    return x + x;
 }
+Same thing as:
+    const square = (x) => {
+        return x * x;
+    }
 
 // If only one parameter you don't need parenthesis 
 
@@ -94,5 +94,16 @@ let movie = movies.find(movie => {
 let movie2 = movies.find(m => m.indexOf('Mrs') === 0);
 
 // reduce
-// some
-// every
+
+// some & every
+// Booleans for checking if every or some elements contain x
+
+const words = ["dog", "dig", "log", "bag", "wag"];
+
+const all3Lets = words.every(word => words.every(word => word.length === 3)); // returns True
+const lastLetter = words.every(word => {
+    const last = word.length - 1;
+    return word(last) === 'g'
+})
+
+const someStartwithD = words.some(word => word[0] === 'd');
