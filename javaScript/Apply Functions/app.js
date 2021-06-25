@@ -50,10 +50,10 @@ const abbrevs = words.map(function (word) {
 const square = function (x) {
     return x + x;
 }
-Same thing as:
-    const square = (x) => {
-        return x * x;
-    }
+// Same thing as:
+const square = (x) => {
+    return x * x;
+}
 
 // If only one parameter you don't need parenthesis 
 
@@ -93,8 +93,6 @@ let movie = movies.find(movie => {
 
 let movie2 = movies.find(m => m.indexOf('Mrs') === 0);
 
-// reduce
-
 // some & every
 // Booleans for checking if every or some elements contain x
 
@@ -107,3 +105,30 @@ const lastLetter = words.every(word => {
 })
 
 const someStartwithD = words.some(word => word[0] === 'd');
+
+// sort pt. 2
+// Sort with compare to compare integers rather than strings
+
+const prices = [400.50, 3000, 99.99, 35.99, 12.00, 9500];
+
+prices.sort();
+
+// Sort updates the original array rather than creating a new one
+// can use slice() to create new array
+
+const ascSort = prices.sort((a, b) => a - b);
+const descSort = prices.sort((a, b) => b - a);
+
+// reduce
+// Executes a reducer function of each element of
+// the array resulting in a single value
+
+// summing an array using reduce
+[3, 5, 7, 9, 11].reduce((sumOfElements, currentValue) => {
+    return accumulator + currentValue;
+})
+
+const nums = [3, 4, 5, 6, 7];
+nums.reduce((total, currentVal) => {
+    return total * currentVal;
+});
