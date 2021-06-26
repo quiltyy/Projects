@@ -132,3 +132,37 @@ const nums = [3, 4, 5, 6, 7];
 nums.reduce((total, currentVal) => {
     return total * currentVal;
 });
+
+// find max using reduce
+let grades = [89, 96, 58, 77, 62, 93, 81, 99, 73];
+
+const topScore = grades.reduce((max, currVal) => {
+    if (currVal > max) return currVal;
+    return max;
+})
+
+topScore;
+
+// Must have an initial value to compare in 
+//reduce add at end of function
+
+const sum = grades.reduce((sum, currVal) => {
+    return sum + currVal
+}, 0)
+
+// Tallying
+const votes = ['y', 'y', 'n', 'y', 'n', 'y', 'n', 'y', 'n', 'n', 'n', 'y', 'y'];
+
+// const results = votes.reduce((tally, val) => {
+//     if (tally[val]) {
+//         tally[val]++
+//     } else {
+//         tally[val] = 1;
+//     }
+//     return tally
+// }, {})
+
+const results = votes.reduce((tally, val) => {
+    tally(val) = (tally(val) || 0) + 1;
+    return tally;
+}, {})
