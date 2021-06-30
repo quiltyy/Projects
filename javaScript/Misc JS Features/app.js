@@ -51,7 +51,7 @@ const houseCat = {
   personality: 'unpredictable'
 }
 
-// REST 
+// Rest 
 function sum(...nums) {
   return nums.reduce((total, currVal) => {
     return total + curreVal
