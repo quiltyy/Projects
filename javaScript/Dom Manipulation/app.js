@@ -1,4 +1,4 @@
-<< << << < HEAD
+// HEAD
 const form = document.querySelector('form')
 
 form.innerHTML
