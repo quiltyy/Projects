@@ -17,3 +17,9 @@ input[type="password"] {
     width: 30px;
     height: 40px;
 }
+
+.done {
+    color: 'gray';
+    text-decoration: 'link-through';
+    opacity: '50%'
+}

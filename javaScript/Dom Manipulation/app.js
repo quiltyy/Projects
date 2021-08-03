@@ -42,12 +42,6 @@
 //     }
 // }, 2000)
 
-const allLis = document.querySelectorAll('li');
+const todo = document.querySelector('#todos.todo')
 
-// for (let i = 0; i < allLis.length; i++) {
-//     console.log(allLis[i].innerText);
-// }
-
-for (let li of allLis) {
-    li.innerHTML = 'WE ARE <b>THE CHAMBERLAINS</b>'
-}
+todo.classList.toggle('done')
