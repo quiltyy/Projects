@@ -1,37 +1,50 @@
-// const willGetYouADog = new Promise((resolve, reject) => {
-//     const rand = Math.random();
-//     if (rand < 0.5) {
-//         resolve();
-//     } else {
-//         reject();
-//     }
-// });
-
-// willGetYouADog.then(() => {
-//     console.log('Yay We Got a Dog!!!');
-// });
-
-// willGetYouADog.catch(() => {
-//     console.log('No Dog');
-// })
-
-const makeDogPromise = () => {
+const fakeRequest = (url) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const rand = Math.random();
-            if (rand < 0.5) {
-                resolve();
+            const pages = {
+                '/users': [{
+                        id: 1,
+                        username: 'Bilbo'
+                    },
+                    {
+                        id: 5,
+                        username: 'Esmerleda'
+                    }
+                ],
+                '/about/': 'This is the about page!'
+            };
+            const data = pages[url]
+            if (data) {
+                resolve({
+                    status: 200,
+                    data
+                });
             } else {
-                reject();
+                reject({
+                    status: 404
+                });
             }
-        }, 5000)
-    });
+        }, 1000);
+    })
 };
 
-makeDogPromise()
-    .then(() => {
-        console.log('Yay We Got a Dog!!!');
+fakeRequest('/users')
+    .then((res) => {
+        console.log('Status Code:', res.status)
+        console.log('Data: ', res.data)
+        console.log("Request Worked");
     })
-    .catch(() => {
-        console.log('No Dog');
+    .catch((res) => {
+        console.log(res.status)
+        console.log('Request Failed')
+    });
+
+fakeRequest('/dogs')
+    .then((res) => {
+        console.log('Status Code:', res.status)
+        console.log('Data: ', res.data)
+        console.log("Request Worked");
+    }).catch((res) => {
+        console.log(res.status)
+        console.log('Request Failed')
     });
