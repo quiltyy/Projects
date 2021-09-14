@@ -85,3 +85,37 @@ isSquare(9)
 var convertCNY = usd => { 
 return `${(usd * 6.75).toFixed(2)} Chinese Yuan`;
 }
+
+
+// REVERSE ORDER OF NUMBERS
+function reverseOrder(n){
+  n = n + "";
+  return n.split("").reverse().join("");
+}
+console.log(Number(reverseOrder(3292392)));
+
+var today = new Date();
+var weekday = new Array(7);
+weekday[0] = "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thursday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
+
+
+function getDateTime(){
+ var today = new Date();
+var d = weekday[today.getDay()];
+var h = today.getHours();
+var m = today.getMinutes();
+var s = today.getSeconds();
+
+ if(h > 12){
+   console.log(`Today is : ${d}. Current Time is :  ${h - 12} PM : ${m} : ${s}`); 
+} 
+else {
+  console.log(`Today is : ${d}. Current Time is :  ${h } PM : ${m} : ${s}`)
+}
+}
