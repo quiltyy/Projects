@@ -1,6 +1,5 @@
 // ====== CHECK IF NUMBER EVEN OR ODD
-function even_or_odd(number) {
-  ...
+function even_or_odd(number) {  
   return number % 2 === 0 ? "even" : "odd";
 }
 
@@ -82,3 +81,7 @@ var isSquare = x => {
 }
 
 isSquare(9)
+
+var convertCNY = usd => { 
+return `${(usd * 6.75).toFixed(2)} Chinese Yuan`;
+}
