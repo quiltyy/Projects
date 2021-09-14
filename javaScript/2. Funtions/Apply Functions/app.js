@@ -166,3 +166,4 @@ const results = votes.reduce((tally, val) => {
     tally(val) = (tally(val) || 0) + 1;
     return tally;
 }, {})
+
