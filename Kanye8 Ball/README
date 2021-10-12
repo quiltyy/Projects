@@ -1,0 +1,7 @@
+Webapp that shakes and 8 ball and returns a Kanye West quote.
+
+1. Create page 
+2. Link to Kanye West API
+3.  Find 8 ball image / animation and
+4. Print API respone on 8 ball 
+5. Allow for more shakes
