@@ -1,0 +1,17 @@
+p {
+  text-align: center;
+}
+
+#quote {
+  color: #16161d;
+  font-style: italic;
+  font-size: 30px;
+  padding-bottom: 0%;
+}
+
+#attribution {
+  color: #16161d;
+  font-style: italic;
+  font-size: 25px;
+  padding-top: 0%;
+}
