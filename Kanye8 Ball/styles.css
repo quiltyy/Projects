@@ -2,7 +2,7 @@ p {
   text-align: center;
 }
 
-#quote {
+#kanye8 {
   color: #16161d;
   font-style: italic;
   font-size: 30px;
@@ -14,4 +14,14 @@ p {
   font-style: italic;
   font-size: 25px;
   padding-top: 0%;
+}
+
+::selection {
+  color: none;
+  background: none;
+}
+
+::-moz-selection {
+  color: none;
+  background: none;
 }
