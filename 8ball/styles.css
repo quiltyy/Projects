@@ -7,6 +7,7 @@ h1 {
   width: 600px;
   margin: 0 auto;
   margin-top: 50px;
+  border: 1px dotted black;
   text-align: center;
   font-family: "Helvetica Neue", arial;
   font-weight: 100;
@@ -16,8 +17,8 @@ div.eight-ball {
   background-color: black;
   border: 1px solid black;
   border-radius: 50%;
-  width: 460px;
-  height: 460px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -38,10 +39,10 @@ p#eight {
   color: white;
 }
 
-p#kanye8 {
-  padding: 25px;
+p#answer {
+  padding: 23px;
   color: lightblue;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 18px;
 }
 

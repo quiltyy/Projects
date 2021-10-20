@@ -17,4 +17,8 @@ async function getQuote() {
 //   getQuote();
 // }
 
-window.addEventListener("dragend", getQuote);
+const ball = document.querySelector("eight-ball");
+
+document.addEventListener("dragend", function (event) {
+  getQuote();
+});
