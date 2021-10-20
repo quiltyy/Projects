@@ -1,7 +1,9 @@
 // TODO
 // Adjust font positioning based on response size so it fits in the 8 ball
+// Disable highlighting on font
 // Ensure compatability with different monitor / screen sizes
 // Create 8 ball animation
+// Adjust font and colors to more closely represent 8ball
 
 async function getQuote() {
   try {
