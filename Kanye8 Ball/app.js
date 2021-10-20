@@ -1,6 +1,7 @@
 // TODO
+// Adjust font positioning based on response size so it fits in the 8 ball
+// Ensure compatability with different monitor / screen sizes
 // Create 8 ball animation
-// delay reloadQuote to line up with animation so it doesn't instantly full in
 
 async function getQuote() {
   try {
