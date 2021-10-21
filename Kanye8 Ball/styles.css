@@ -55,3 +55,13 @@ p#kanye8 {
 #info {
   font-size: 22px;
 }
+
+::selection {
+  color: none;
+  background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+  color: none;
+  background: none;
+}
