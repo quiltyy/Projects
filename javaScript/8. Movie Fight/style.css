@@ -41,3 +41,8 @@ figure .image img {
   height: 50px;
   margin-right: 10px;
 }
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
