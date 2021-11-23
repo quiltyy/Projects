@@ -53,6 +53,12 @@
         "request": "launch",
         "reAttach": true,
         "addonPath": "${workspaceFolder}"
+      },
+      {
+        "type": "pwa-chrome",
+        "name": "http://127.0.0.1:3000/javaScript/8. Movie Fight/index.html",
+        "request": "launch",
+        "url": "http://127.0.0.1:3000/javaScript/8. Movie Fight/index.html"
       }
     ]
   }
