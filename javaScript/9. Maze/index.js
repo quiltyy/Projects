@@ -1,7 +1,12 @@
+//==== TODO ====
+// Add arrow key controls
+// Add ability to choose maze size
+// Add Refresh button to Win screen
+
 const { Engine, Render, Runner, World, Bodies, Body, Events } = Matter;
 
-const cellsHorizontal = 3;
-const cellsVertical = 3;
+const cellsHorizontal = 6;
+const cellsVertical = 6;
 const width = window.innerWidth;
 const height = window.innerHeight;
 
