@@ -1,11 +1,13 @@
-const { Engine, Render, Runner, World, Bodies } = Matter;
+const { Engine, Render, Runner, World, Bodies, Body } = Matter;
 
 const cells = 15;
 const width = 600;
 const height = 600;
+
 const unitLength = width / cells;
 
 const engine = Engine.create();
+engine.world.gravity.y = 0;
 const { world } = engine;
 const render = Render.create({
   element: document.body,
@@ -21,23 +23,28 @@ Runner.run(Runner.create(), engine);
 
 // Walls
 const walls = [
-  Bodies.rectangle(width / 2, 0, width, 40, { isStatic: true }),
-  Bodies.rectangle(width / 2, height, width, 40, { isStatic: true }),
-  Bodies.rectangle(0, height / 2, 40, height, { isStatic: true }),
-  Bodies.rectangle(width, height / 2, 40, height, { isStatic: true }),
+  Bodies.rectangle(width / 2, 0, width, 2, { isStatic: true }),
+  Bodies.rectangle(width / 2, height, width, 2, { isStatic: true }),
+  Bodies.rectangle(0, height / 2, 2, height, { isStatic: true }),
+  Bodies.rectangle(width, height / 2, 2, height, { isStatic: true }),
 ];
 World.add(world, walls);
 
-// Maze Generation
+// Maze generation
+
 const shuffle = (arr) => {
   let counter = arr.length;
+
   while (counter > 0) {
     const index = Math.floor(Math.random() * counter);
+
     counter--;
+
     const temp = arr[counter];
     arr[counter] = arr[index];
     arr[index] = temp;
   }
+
   return arr;
 };
 
@@ -57,12 +64,14 @@ const startRow = Math.floor(Math.random() * cells);
 const startColumn = Math.floor(Math.random() * cells);
 
 const stepThroughCell = (row, column) => {
-  // If I have visited the cell at [row, column], then return
+  // If i have visted the cell at [row, column], then return
   if (grid[row][column]) {
     return;
   }
+
   // Mark this cell as being visited
   grid[row][column] = true;
+
   // Assemble randomly-ordered list of neighbors
   const neighbors = shuffle([
     [row - 1, column, "up"],
@@ -70,9 +79,10 @@ const stepThroughCell = (row, column) => {
     [row + 1, column, "down"],
     [row, column - 1, "left"],
   ]);
-  // For each neighbor...
+  // For each neighbor....
   for (let neighbor of neighbors) {
     const [nextRow, nextColumn, direction] = neighbor;
+
     // See if that neighbor is out of bounds
     if (
       nextRow < 0 ||
@@ -82,10 +92,12 @@ const stepThroughCell = (row, column) => {
     ) {
       continue;
     }
+
     // If we have visited that neighbor, continue to next neighbor
     if (grid[nextRow][nextColumn]) {
       continue;
     }
+
     // Remove a wall from either horizontals or verticals
     if (direction === "left") {
       verticals[row][column - 1] = true;
@@ -96,18 +108,19 @@ const stepThroughCell = (row, column) => {
     } else if (direction === "down") {
       horizontals[row][column] = true;
     }
+
     stepThroughCell(nextRow, nextColumn);
   }
-  // Visit that next cell
 };
+
 stepThroughCell(startRow, startColumn);
 
-// Build Horizontal Walls
 horizontals.forEach((row, rowIndex) => {
   row.forEach((open, columnIndex) => {
     if (open) {
       return;
     }
+
     const wall = Bodies.rectangle(
       columnIndex * unitLength + unitLength / 2,
       rowIndex * unitLength + unitLength,
@@ -121,12 +134,12 @@ horizontals.forEach((row, rowIndex) => {
   });
 });
 
-// Build Vertical Walls
 verticals.forEach((row, rowIndex) => {
   row.forEach((open, columnIndex) => {
     if (open) {
       return;
     }
+
     const wall = Bodies.rectangle(
       columnIndex * unitLength + unitLength,
       rowIndex * unitLength + unitLength / 2,
@@ -138,4 +151,42 @@ verticals.forEach((row, rowIndex) => {
     );
     World.add(world, wall);
   });
+});
+
+// Goal
+
+const goal = Bodies.rectangle(
+  width - unitLength / 2,
+  height - unitLength / 2,
+  unitLength * 0.7,
+  unitLength * 0.7,
+  {
+    isStatic: true,
+  }
+);
+World.add(world, goal);
+
+// Ball
+
+const ball = Bodies.circle(unitLength / 2, unitLength / 2, unitLength / 4);
+World.add(world, ball);
+
+document.addEventListener("keydown", (event) => {
+  const { x, y } = ball.velocity;
+
+  if (event.keyCode === 87) {
+    Body.setVelocity(ball, { x, y: y - 5 });
+  }
+
+  if (event.keyCode === 68) {
+    Body.setVelocity(ball, { x: x + 5, y });
+  }
+
+  if (event.keyCode === 83) {
+    Body.setVelocity(ball, { x, y: y + 5 });
+  }
+
+  if (event.keyCode === 65) {
+    Body.setVelocity(ball, { x: x - 5, y });
+  }
 });
