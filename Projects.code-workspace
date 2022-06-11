@@ -3,6 +3,10 @@
     {
       "name": "Projects",
       "path": "."
+    },
+    {
+      "name": "NPC",
+      "path": "../NPC"
     }
   ],
   "settings": {
