@@ -8,5 +8,7 @@
 			"path": "../Unity Projects"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.autoSave": "onFocusChange"
+	}
 }
