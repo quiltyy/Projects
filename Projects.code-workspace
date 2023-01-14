@@ -3,6 +3,9 @@
 		{
 			"name": "Projects",
 			"path": "."
+		},
+		{
+			"path": "../Unity Projects"
 		}
 	],
 	"settings": {}
