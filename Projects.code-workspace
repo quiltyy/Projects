@@ -3,7 +3,12 @@
 		{
 			"name": "Projects",
 			"path": "."
+		},
+		{
+			"path": "../Unity Projects"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.autoSave": "onFocusChange"
+	}
 }
