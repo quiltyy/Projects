@@ -1,0 +1,14 @@
+Pickleball App Development Notes:
+    - Model View Controller
+
+    - Function:
+        Track current score?
+        Track unforced errors, aces, aces, against, Record for each player
+
+        Tournament creator / bracket manager
+
+        Should each play be recorded, or just at the end of the game?
+
+TODO:
+
+    - Mock-up a view of the scoring screen. 
