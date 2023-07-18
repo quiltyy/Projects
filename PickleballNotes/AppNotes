@@ -2,12 +2,14 @@ Pickleball App Development Notes:
     - Model View Controller
 
     - Function:
-        Track current score?
+        Tally current score
         Track unforced errors, aces, aces, against, Record for each player
 
         Tournament creator / bracket manager
 
         Should each play be recorded, or just at the end of the game?
+
+        Watch app that can tally score and store until complete then move results to main app
 
 TODO:
 
