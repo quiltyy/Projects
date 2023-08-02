@@ -2,8 +2,16 @@ Pickleball App Development Notes:
     - Model View Controller
 
     - Function:
+        Place names into list by team number
+        
+
         Tally current score
+        
+        Change "Create Team" location / size based on if there is more than one team.
+            - Create drop down menu.
+
         Track unforced errors, aces, aces, against, Record for each player
+
 
         Tournament creator / bracket manager
 
@@ -12,7 +20,16 @@ Pickleball App Development Notes:
         Watch Compaion? App: 
             -Tally score and store until complete then move results to main app
             - Accelorometer to calculate swing speed and angle
+        
+        Bracket View
+
+        Create Menu to put team onto main screen
+
+        Instruction for sliding to close 
+            - Think about best UI to go from screen to screen
 
 TODO:
 
     - Create stepper for tracking team 1 and team 2 score
+    - Find / Develop round robin tournament code
+
