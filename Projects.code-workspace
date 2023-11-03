@@ -6,6 +6,10 @@
 		}
 	],
 	"settings": {
-		"files.autoSave": "onFocusChange"
+		"files.autoSave": "onFocusChange",
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter"
+		},
+		"python.formatting.provider": "none"
 	}
 }
