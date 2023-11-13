@@ -1,7 +1,21 @@
 6 Step Machine Learning Framework
     1. Problem Deifinition
+        a. What problem are we trying to solve?
+            - Supervised Learning
+                Classification
+                    Binary Classification
+                    Multi-class Classification
+                Regression
+                    How much will this house sell for?
+                    How many people will buy this app?
+            - Unsupervised Learning
+                Clustering   
+            - Transfer Learning
+                Taking another model and applying the model to another target
+            - Reinforcement Learning
+                Have a computer program do a task and giving a punishment or reward depending on their response
     2. Data
     3. Evaluation
     4. Features
     5. Modelling
-    6. 
+    6. Experimentation
