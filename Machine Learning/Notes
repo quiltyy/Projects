@@ -1,4 +1,5 @@
-6 Step Machine Learning Framework
+6 Step Machine Learning Framework 
+(https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-learning-projects/)
     1. Problem Deifinition
         a. What problem are we trying to solve?
             - Supervised Learning
@@ -15,7 +16,24 @@
             - Reinforcement Learning
                 Have a computer program do a task and giving a punishment or reward depending on their response
     2. Data
+        a. Structured
+            - Excel / CSV
+        b. Unsctructured
+            - Images
+            - Video Files
+            - Audio Files
+        c. Static
+            - Data that doesn't change
+        d. Dynamic
+            - Data that can change over time
     3. Evaluation
+        a. What defines success for us?
     4. Features
+        a. Numerical
+        b. Categorical
+        c. Derived
     5. Modelling
+        a. Choosing and training a model
+        b. Tuning a model
+        c. Model Comparison
     6. Experimentation
