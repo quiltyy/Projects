@@ -1,0 +1,13 @@
+prefix=/Users/quilty/Projects/MachineLearning/sample-project/env
+exec_prefix=/Users/quilty/Projects/MachineLearning/sample-project/env
+libdir=/Users/quilty/Projects/MachineLearning/sample-project/env/lib
+sharedlibdir=/Users/quilty/Projects/MachineLearning/sample-project/env/lib
+includedir=/Users/quilty/Projects/MachineLearning/sample-project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

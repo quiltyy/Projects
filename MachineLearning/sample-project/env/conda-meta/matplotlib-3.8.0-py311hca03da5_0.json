@@ -1,0 +1,35 @@
+{
+  "build": "py311hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.8.0,<3.8.1.0a0",
+    "python >=3.11,<3.12.0a0",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/Users/quilty/miniconda3/pkgs/matplotlib-3.8.0-py311hca03da5_0",
+  "files": [],
+  "fn": "matplotlib-3.8.0-py311hca03da5_0.conda",
+  "legacy_bz2_md5": "cdd4cacaa42911dc3dd6cf36c9e06db2",
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/quilty/miniconda3/pkgs/matplotlib-3.8.0-py311hca03da5_0",
+    "type": 1
+  },
+  "md5": "1814956bab475665d6c23297e2e25b69",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/quilty/miniconda3/pkgs/matplotlib-3.8.0-py311hca03da5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "5722e996cb034fa26c5febde8ea87f00369e64bb76703e66061b997376034cc2",
+  "size": 9051,
+  "subdir": "osx-arm64",
+  "timestamp": 1698692349948,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/matplotlib-3.8.0-py311hca03da5_0.conda",
+  "version": "3.8.0"
+}
