@@ -199,3 +199,15 @@
 +conda-forge/osx-arm64::ca-certificates-2023.7.22-hf0a4a13_0
 +conda-forge/osx-arm64::openssl-3.1.4-h0d3ecfb_0
 # update specs: ['jupyterthemes']
+==> 2023-11-15 22:32:33 <==
+# cmd: /Users/quilty/miniconda3/bin/conda remove jupyterthemes
+# conda version: 23.9.0
+-conda-forge/noarch::certifi-2023.7.22-pyhd8ed1ab_0
+-conda-forge/noarch::jupyterthemes-0.20.0-py_1
+-conda-forge/noarch::lesscpy-0.15.1-pyhd8ed1ab_0
+-conda-forge/osx-arm64::ca-certificates-2023.7.22-hf0a4a13_0
+-conda-forge/osx-arm64::openssl-3.1.4-h0d3ecfb_0
++defaults/osx-arm64::ca-certificates-2023.08.22-hca03da5_0
++defaults/osx-arm64::certifi-2023.7.22-py311hca03da5_0
++defaults/osx-arm64::openssl-3.0.12-h1a28f6b_0
+# remove specs: ['jupyterthemes']
