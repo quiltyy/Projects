@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/Users/quilty/Projects/MachineLearning/sample-project/env/include
+Libs: -L/Users/quilty/Projects/MachineLearning/sample-project/env/lib -lecpg
+Libs.private: -L/Users/quilty/Projects/MachineLearning/sample-project/env/lib -lpgcommon -lpgport -lm

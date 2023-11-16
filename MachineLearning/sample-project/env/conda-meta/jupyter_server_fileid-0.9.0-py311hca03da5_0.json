@@ -1,0 +1,199 @@
+{
+  "build": "py311hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "jupyter_events >=0.5.0",
+    "jupyter_server >=1.15,<3",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/Users/quilty/miniconda3/pkgs/jupyter_server_fileid-0.9.0-py311hca03da5_0",
+  "files": [
+    "bin/jupyter-fileid",
+    "etc/jupyter/jupyter_server_config.d/jupyter_server_fileid.json",
+    "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/jupyter_server_fileid/__init__.py",
+    "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/cli.cpython-311.pyc",
+    "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/extension.cpython-311.pyc",
+    "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/manager.cpython-311.pyc",
+    "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/pytest_plugin.cpython-311.pyc",
+    "lib/python3.11/site-packages/jupyter_server_fileid/cli.py",
+    "lib/python3.11/site-packages/jupyter_server_fileid/extension.py",
+    "lib/python3.11/site-packages/jupyter_server_fileid/manager.py",
+    "lib/python3.11/site-packages/jupyter_server_fileid/pytest_plugin.py"
+  ],
+  "fn": "jupyter_server_fileid-0.9.0-py311hca03da5_0.conda",
+  "legacy_bz2_md5": "5274a5cc136882bba92bc752dfc2770b",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/quilty/miniconda3/pkgs/jupyter_server_fileid-0.9.0-py311hca03da5_0",
+    "type": 1
+  },
+  "md5": "6d37b72deae903760a742d3dfa8ffef0",
+  "name": "jupyter_server_fileid",
+  "package_tarball_full_path": "/Users/quilty/miniconda3/pkgs/jupyter_server_fileid-0.9.0-py311hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/jupyter-fileid",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a5j1mo_1cs/croot/jupyter_server_fileid_1684273608144/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "24bdb8bfd605049f104c33de327226a9762c809c2c040eb67c3b86c4de3c9a8d",
+        "sha256_in_prefix": "5a7159a42e90df6b82a6d4157215d4def84dacb879816c773b635b689c75731f",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "etc/jupyter/jupyter_server_config.d/jupyter_server_fileid.json",
+        "path_type": "hardlink",
+        "sha256": "d8c174c5c005f94013d1a2c420849fb66bb953f70d7dea9a056bfd53ecb54b6a",
+        "sha256_in_prefix": "d8c174c5c005f94013d1a2c420849fb66bb953f70d7dea9a056bfd53ecb54b6a",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "954f8ebc3f4a5c92f47f6be705587e4a45e410053b695ba24dded269f9023dbc",
+        "sha256_in_prefix": "954f8ebc3f4a5c92f47f6be705587e4a45e410053b695ba24dded269f9023dbc",
+        "size_in_bytes": 4541
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "52e6c3b74519685a1b17946d8ff58e0bbb7c1ea446e63211de7133fb15223965",
+        "sha256_in_prefix": "52e6c3b74519685a1b17946d8ff58e0bbb7c1ea446e63211de7133fb15223965",
+        "size_in_bytes": 1762
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "84a8bb008231eaa7e7b116ebd3ceefa5e267ad552e0e89031d969c3cf316efe6",
+        "sha256_in_prefix": "84a8bb008231eaa7e7b116ebd3ceefa5e267ad552e0e89031d969c3cf316efe6",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8b1b3c6321a2e3a7670161a65184d9bf64415e9765193135f62b1cfe9a645694",
+        "sha256_in_prefix": "8b1b3c6321a2e3a7670161a65184d9bf64415e9765193135f62b1cfe9a645694",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "5c668f46aab0d80f2d23dc37762a70b5b6bc9c6ebc7aa056d25478c232b8ddb6",
+        "sha256_in_prefix": "5c668f46aab0d80f2d23dc37762a70b5b6bc9c6ebc7aa056d25478c232b8ddb6",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid-0.9.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c507099b5188deecea4031c18e68997ea78c24113e35485df81147a4f50c2c7e",
+        "sha256_in_prefix": "c507099b5188deecea4031c18e68997ea78c24113e35485df81147a4f50c2c7e",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e36d5cb35684a5d49044779bd0cde78c7d1685aa14b207770d472f35020adb32",
+        "sha256_in_prefix": "e36d5cb35684a5d49044779bd0cde78c7d1685aa14b207770d472f35020adb32",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "31bc930cb7e20b7a641fe18183ea70db7299b65b5a50bce3be5971a9c904cac6",
+        "sha256_in_prefix": "31bc930cb7e20b7a641fe18183ea70db7299b65b5a50bce3be5971a9c904cac6",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/cli.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f89d884c9fded2b765e02582cd076d0ea0b5f234bdcaa3bf062e7a5031dd4b68",
+        "sha256_in_prefix": "f89d884c9fded2b765e02582cd076d0ea0b5f234bdcaa3bf062e7a5031dd4b68",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/extension.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bb65df6688c506414d6b05d68341102b24e41fbf6573fd06f24fd00a791c997",
+        "sha256_in_prefix": "8bb65df6688c506414d6b05d68341102b24e41fbf6573fd06f24fd00a791c997",
+        "size_in_bytes": 2910
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/manager.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "aef63feb32cda6bdbc6bb31af3b78cc50692da57dcc311163013196dbe9bea57",
+        "sha256_in_prefix": "aef63feb32cda6bdbc6bb31af3b78cc50692da57dcc311163013196dbe9bea57",
+        "size_in_bytes": 48292
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/__pycache__/pytest_plugin.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3e1641530c2687d62150bd02dc906c134610d493d7c637b98b00966c1c22aac",
+        "sha256_in_prefix": "d3e1641530c2687d62150bd02dc906c134610d493d7c637b98b00966c1c22aac",
+        "size_in_bytes": 9634
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/cli.py",
+        "path_type": "hardlink",
+        "sha256": "29e7ebcc863b7984ac205477d6eb492bcaa781019e48e2c7895ef90aa97688d4",
+        "sha256_in_prefix": "29e7ebcc863b7984ac205477d6eb492bcaa781019e48e2c7895ef90aa97688d4",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/extension.py",
+        "path_type": "hardlink",
+        "sha256": "da0bff17da1b80f1e5d6754c913fb62afdc0871974d9741a2f4f343e27fdaab0",
+        "sha256_in_prefix": "da0bff17da1b80f1e5d6754c913fb62afdc0871974d9741a2f4f343e27fdaab0",
+        "size_in_bytes": 1660
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/manager.py",
+        "path_type": "hardlink",
+        "sha256": "af8eafc4f5f9a8c69c6e3debdcab171eae207973b2a66724bb741b3c06036e6b",
+        "sha256_in_prefix": "af8eafc4f5f9a8c69c6e3debdcab171eae207973b2a66724bb741b3c06036e6b",
+        "size_in_bytes": 34827
+      },
+      {
+        "_path": "lib/python3.11/site-packages/jupyter_server_fileid/pytest_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "9a2f1049d6c1605a7d691fb9290c303a3f313eb5cbe3abfe7289e26b53f61171",
+        "sha256_in_prefix": "9a2f1049d6c1605a7d691fb9290c303a3f313eb5cbe3abfe7289e26b53f61171",
+        "size_in_bytes": 6250
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f13f600ddb8661af406f976f7542c5d75f1d3a3ede504030191852b83660fd2e",
+  "size": 38069,
+  "subdir": "osx-arm64",
+  "timestamp": 1684273696659,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/jupyter_server_fileid-0.9.0-py311hca03da5_0.conda",
+  "version": "0.9.0"
+}
