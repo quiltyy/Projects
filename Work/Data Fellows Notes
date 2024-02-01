@@ -1,59 +1,47 @@
 -------------- Data Fellows Day 1 --------------
 
------- What do you want answered ------- 
+------ What do you want answered -------
+
 - 24/25 Program Specific Retention Data 5 years (Accredidation)
-    - When a student joins a major how many are going to complete / graduate and yoy change. 
 
-- Student Milgard direct what happens to them? How many stay at UWT. 
+  - When a student joins a major how many are going to complete / graduate and yoy change.
 
-- Building a report that would give consistent leads on who returners are.   Outreach mid quarter check ins.  Stop out information.  What more can we do to keep students. 
-    - Keeping track of students who have been past quarter off policy.
-    - Just falling off and level of difficulty for returning. 
-    - Quarterly Returning Student report
+- Student Milgard direct what happens to them? How many stay at UWT.
 
-- Pre-Major advisors and when they hand off a student to a major advisor. 
-    - How can we accurately identify what a student plans to major in and reach out to them.
-    - Consistent and early advising can help with student retention. 
+- Building a report that would give consistent leads on who returners are. Outreach mid quarter check ins. Stop out information. What more can we do to keep students.
 
-- Report Priortization Group Committee 
-    - Identify reports that need to be created for the tri-campus community.
-    - Advisor and Admissions representation.
+  - Keeping track of students who have been past quarter off policy.
+  - Just falling off and level of difficulty for returning.
+  - Quarterly Returning Student report
 
-- IAS Limited basic demographic data.  DFW information.  Student Success "High Impact" practices.
+- Pre-Major advisors and when they hand off a student to a major advisor.
 
-- How study abroad effects retention.  Students of Color and Pell Eligible.
-    - Collaborative Online International Learning.
-    - Languages spoken at home.
-    - Students who engage in core classes in general. 
+  - How can we accurately identify what a student plans to major in and reach out to them.
+  - Consistent and early advising can help with student retention.
+
+- Report Priortization Group Committee
+
+  - Identify reports that need to be created for the tri-campus community.
+  - Advisor and Admissions representation.
+
+- IAS Limited basic demographic data. DFW information. Student Success "High Impact" practices.
+
+- How study abroad effects retention. Students of Color and Pell Eligible.
+
+  - Collaborative Online International Learning.
+  - Languages spoken at home.
+  - Students who engage in core classes in general.
 
 - Transfer Equivalency Reports / Investigation
 
------- Knowledge Navigator -------    Keith Van Eaton
-    - Meta Data Management 
-        - Meta Data : The information about the data
-    - Knowledge Navigator
-        - Tri-Campus understanding of terms
-        - Hands out business definitions
-        - Links those definitions to reports
-        - Technical meta data for SQL users
-    
------- FERPA / Data Governance ------
-    - Students are covered by FERPA with the university when they become admitted or denied
+------ Knowledge Navigator ------- Keith Van Eaton - Meta Data Management - Meta Data : The information about the data - Knowledge Navigator - Tri-Campus understanding of terms - Hands out business definitions - Links those definitions to reports - Technical meta data for SQL users
 
------- Knowledge Navigator -------
-    - BI Portal numbers do not include non-tuition students
-    - FTE Should be the new test question
-    - Tracks are non-programatic tracking of students within some pathways of IAS, Urban Studies, possibly SET
+------ FERPA / Data Governance ------ - Students are covered by FERPA with the university when they become admitted or denied
 
+------ Knowledge Navigator ------- - BI Portal numbers do not include non-tuition students - FTE Should be the new test question - Tracks are non-programatic tracking of students within some pathways of IAS, Urban Studies, possibly SET
 
 -------------- Data Fellows Day 3 --------------
 
------- Parking Lot Questions ------
-    - What report pulls a large number of students' classs schedules to be able to see what courses students within a major typically take together?
-    - "Quarter Skipped" field in Eligible to Register (What does it mean?)
-        - Summer doesn't count as a quarter skipped but does count as a quarter earned.
-
+------ Parking Lot Questions ------ - What report pulls a large number of students' classs schedules to be able to see what courses students within a major typically take together? - "Quarter Skipped" field in Eligible to Register (What does it mean?) - Summer doesn't count as a quarter skipped but does count as a quarter earned.
 
 ----- Data for DFW rates for Vanessa ------
-
-
