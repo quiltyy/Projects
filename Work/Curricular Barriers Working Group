@@ -14,6 +14,7 @@ Database Creation - 8 Years (2/14/2024)
     - High Unment Request 
         - Contact Infromation for Unmet Requests
         - sr_unmet_request and time_schedule.students_denied
+        - time_schedule for add/drop types.
         - Identify Courses that haven't been offered in 5 years
 
 First Cubed:
