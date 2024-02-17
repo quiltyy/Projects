@@ -1,0 +1,53 @@
+Husky Check-In 
+
+Survey
+    - Biases
+        - Sampling Bias
+        - Non-Response Bias
+        - Recall Bias
+            - Receny Bias
+            - Social Desirability Bias
+            - Extreme or Neutral Response Bias
+    - Survey Fatigue
+    - Low Response Rates
+    - Processing Time
+    - Difficult (or impossible) to address instrument issues
+    - Validity and Reliability
+
+"Pulse Check" / Pulse Survey
+    - Pros
+        - Short
+        - Fast
+        - "Easy" to develop and launch
+        - Responsive to population
+    - Cons
+        - Difficult to capture complexity / nuance
+        - Analysis Paralysis
+        - Risk of tuning-out
+    
+Context and Stakeholders
+    - The Office of Educational Assessment starts conversations
+    with key stakeholders in summer 2021 to take action:
+        - Undergraduate Academic Affairs
+        - Office of Minority Affairs & Diversity
+        - Student Life
+        - The Graduate School
+        - Student Success (Bothell)
+        - Academic Affairs (Tacoma)
+
+Tools
+    - Qualtrics (of course)
+        - Copy Project Tool
+            - Stadardization across datasets
+    - IdP capture
+        - Fewere questions for respondents
+        - Ne discrepencies between responses & official student records
+    - R
+        - Clear and easy documentation (RMarkdown)
+        - Partially automated reporting (KnitR)
+        - Standardization across datasets (Tidyverse)
+        - Automated crosstabulations
+
+Used MyUW webpage that then sent the MyUW username to an attribute in 
+Qualtrics <NEED THIS FOR OUR SURVEYS>
+    

@@ -211,3 +211,19 @@
 +defaults/osx-arm64::certifi-2023.7.22-py311hca03da5_0
 +defaults/osx-arm64::openssl-3.0.12-h1a28f6b_0
 # remove specs: ['jupyterthemes']
+==> 2024-02-08 11:50:24 <==
+# cmd: /Users/quilty/miniconda3/bin/conda install --yes --prefix /Users/quilty/Projects/MachineLearning/sample-project/env -c conda-forge textblob
+# conda version: 23.9.0
+-defaults/osx-arm64::ca-certificates-2023.08.22-hca03da5_0
+-defaults/osx-arm64::certifi-2023.7.22-py311hca03da5_0
+-defaults/osx-arm64::openssl-3.0.12-h1a28f6b_0
++conda-forge/noarch::certifi-2024.2.2-pyhd8ed1ab_0
++conda-forge/noarch::click-8.1.7-unix_pyh707e725_0
++conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_0
++conda-forge/noarch::nltk-3.8.1-pyhd8ed1ab_0
++conda-forge/noarch::textblob-0.15.3-py_0
++conda-forge/noarch::tqdm-4.66.1-pyhd8ed1ab_0
++conda-forge/osx-arm64::ca-certificates-2024.2.2-hf0a4a13_0
++conda-forge/osx-arm64::openssl-3.2.1-h0d3ecfb_0
++defaults/osx-arm64::regex-2023.10.3-py311h80987f9_0
+# update specs: ['textblob']
