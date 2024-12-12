@@ -8,12 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    // IB Action for the stepper
+    @IBAction func pressStepper(_ sender: UIStepper) {
+        // Update the label with the current value of the stepper
+        
+    }
+    
 }
 
