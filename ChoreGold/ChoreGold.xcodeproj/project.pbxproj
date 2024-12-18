@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		36BFB9232D0A9E91009DCF83 /* PBXContainerItemProxy */ = {
+		36ACADE82D1293FE005876BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 36BFB9042D0A9E8F009DCF83 /* Project object */;
+			containerPortal = 36ACADC92D1293FC005876BA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36BFB90B2D0A9E8F009DCF83;
+			remoteGlobalIDString = 36ACADD02D1293FC005876BA;
 			remoteInfo = ChoreGold;
 		};
-		36BFB92D2D0A9E91009DCF83 /* PBXContainerItemProxy */ = {
+		36ACADF22D1293FE005876BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 36BFB9042D0A9E8F009DCF83 /* Project object */;
+			containerPortal = 36ACADC92D1293FC005876BA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36BFB90B2D0A9E8F009DCF83;
+			remoteGlobalIDString = 36ACADD02D1293FC005876BA;
 			remoteInfo = ChoreGold;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36BFB90C2D0A9E8F009DCF83 /* ChoreGold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreGold.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36BFB9222D0A9E91009DCF83 /* ChoreGoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreGoldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		36BFB92C2D0A9E91009DCF83 /* ChoreGoldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreGoldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ACADD12D1293FC005876BA /* ChoreGold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreGold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ACADE72D1293FE005876BA /* ChoreGoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreGoldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ACADF12D1293FE005876BA /* ChoreGoldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreGoldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		36BFB9342D0A9E91009DCF83 /* Exceptions for "ChoreGold" folder in "ChoreGold" target */ = {
+		36ACADF92D1293FE005876BA /* Exceptions for "ChoreGold" folder in "ChoreGold" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 36BFB90B2D0A9E8F009DCF83 /* ChoreGold */;
+			target = 36ACADD02D1293FC005876BA /* ChoreGold */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		36BFB90E2D0A9E8F009DCF83 /* ChoreGold */ = {
+		36ACADD32D1293FC005876BA /* ChoreGold */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				36BFB9342D0A9E91009DCF83 /* Exceptions for "ChoreGold" folder in "ChoreGold" target */,
+				36ACADF92D1293FE005876BA /* Exceptions for "ChoreGold" folder in "ChoreGold" target */,
 			);
 			path = ChoreGold;
 			sourceTree = "<group>";
 		};
-		36BFB9252D0A9E91009DCF83 /* ChoreGoldTests */ = {
+		36ACADEA2D1293FE005876BA /* ChoreGoldTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ChoreGoldTests;
 			sourceTree = "<group>";
 		};
-		36BFB92F2D0A9E91009DCF83 /* ChoreGoldUITests */ = {
+		36ACADF42D1293FE005876BA /* ChoreGoldUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ChoreGoldUITests;
 			sourceTree = "<group>";
@@ -61,21 +61,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36BFB9092D0A9E8F009DCF83 /* Frameworks */ = {
+		36ACADCE2D1293FC005876BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36BFB91F2D0A9E91009DCF83 /* Frameworks */ = {
+		36ACADE42D1293FE005876BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36BFB9292D0A9E91009DCF83 /* Frameworks */ = {
+		36ACADEE2D1293FE005876BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36BFB9032D0A9E8F009DCF83 = {
+		36ACADC82D1293FC005876BA = {
 			isa = PBXGroup;
 			children = (
-				36BFB90E2D0A9E8F009DCF83 /* ChoreGold */,
-				36BFB9252D0A9E91009DCF83 /* ChoreGoldTests */,
-				36BFB92F2D0A9E91009DCF83 /* ChoreGoldUITests */,
-				36BFB90D2D0A9E8F009DCF83 /* Products */,
+				36ACADD32D1293FC005876BA /* ChoreGold */,
+				36ACADEA2D1293FE005876BA /* ChoreGoldTests */,
+				36ACADF42D1293FE005876BA /* ChoreGoldUITests */,
+				36ACADD22D1293FC005876BA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		36BFB90D2D0A9E8F009DCF83 /* Products */ = {
+		36ACADD22D1293FC005876BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36BFB90C2D0A9E8F009DCF83 /* ChoreGold.app */,
-				36BFB9222D0A9E91009DCF83 /* ChoreGoldTests.xctest */,
-				36BFB92C2D0A9E91009DCF83 /* ChoreGoldUITests.xctest */,
+				36ACADD12D1293FC005876BA /* ChoreGold.app */,
+				36ACADE72D1293FE005876BA /* ChoreGoldTests.xctest */,
+				36ACADF12D1293FE005876BA /* ChoreGoldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36BFB90B2D0A9E8F009DCF83 /* ChoreGold */ = {
+		36ACADD02D1293FC005876BA /* ChoreGold */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36BFB9352D0A9E91009DCF83 /* Build configuration list for PBXNativeTarget "ChoreGold" */;
+			buildConfigurationList = 36ACADFA2D1293FE005876BA /* Build configuration list for PBXNativeTarget "ChoreGold" */;
 			buildPhases = (
-				36BFB9082D0A9E8F009DCF83 /* Sources */,
-				36BFB9092D0A9E8F009DCF83 /* Frameworks */,
-				36BFB90A2D0A9E8F009DCF83 /* Resources */,
+				36ACADCD2D1293FC005876BA /* Sources */,
+				36ACADCE2D1293FC005876BA /* Frameworks */,
+				36ACADCF2D1293FC005876BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				36BFB90E2D0A9E8F009DCF83 /* ChoreGold */,
+				36ACADD32D1293FC005876BA /* ChoreGold */,
 			);
 			name = ChoreGold;
 			packageProductDependencies = (
 			);
 			productName = ChoreGold;
-			productReference = 36BFB90C2D0A9E8F009DCF83 /* ChoreGold.app */;
+			productReference = 36ACADD12D1293FC005876BA /* ChoreGold.app */;
 			productType = "com.apple.product-type.application";
 		};
-		36BFB9212D0A9E91009DCF83 /* ChoreGoldTests */ = {
+		36ACADE62D1293FE005876BA /* ChoreGoldTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36BFB93A2D0A9E91009DCF83 /* Build configuration list for PBXNativeTarget "ChoreGoldTests" */;
+			buildConfigurationList = 36ACADFF2D1293FE005876BA /* Build configuration list for PBXNativeTarget "ChoreGoldTests" */;
 			buildPhases = (
-				36BFB91E2D0A9E91009DCF83 /* Sources */,
-				36BFB91F2D0A9E91009DCF83 /* Frameworks */,
-				36BFB9202D0A9E91009DCF83 /* Resources */,
+				36ACADE32D1293FE005876BA /* Sources */,
+				36ACADE42D1293FE005876BA /* Frameworks */,
+				36ACADE52D1293FE005876BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				36BFB9242D0A9E91009DCF83 /* PBXTargetDependency */,
+				36ACADE92D1293FE005876BA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				36BFB9252D0A9E91009DCF83 /* ChoreGoldTests */,
+				36ACADEA2D1293FE005876BA /* ChoreGoldTests */,
 			);
 			name = ChoreGoldTests;
 			packageProductDependencies = (
 			);
 			productName = ChoreGoldTests;
-			productReference = 36BFB9222D0A9E91009DCF83 /* ChoreGoldTests.xctest */;
+			productReference = 36ACADE72D1293FE005876BA /* ChoreGoldTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		36BFB92B2D0A9E91009DCF83 /* ChoreGoldUITests */ = {
+		36ACADF02D1293FE005876BA /* ChoreGoldUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36BFB93D2D0A9E91009DCF83 /* Build configuration list for PBXNativeTarget "ChoreGoldUITests" */;
+			buildConfigurationList = 36ACAE022D1293FE005876BA /* Build configuration list for PBXNativeTarget "ChoreGoldUITests" */;
 			buildPhases = (
-				36BFB9282D0A9E91009DCF83 /* Sources */,
-				36BFB9292D0A9E91009DCF83 /* Frameworks */,
-				36BFB92A2D0A9E91009DCF83 /* Resources */,
+				36ACADED2D1293FE005876BA /* Sources */,
+				36ACADEE2D1293FE005876BA /* Frameworks */,
+				36ACADEF2D1293FE005876BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				36BFB92E2D0A9E91009DCF83 /* PBXTargetDependency */,
+				36ACADF32D1293FE005876BA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				36BFB92F2D0A9E91009DCF83 /* ChoreGoldUITests */,
+				36ACADF42D1293FE005876BA /* ChoreGoldUITests */,
 			);
 			name = ChoreGoldUITests;
 			packageProductDependencies = (
 			);
 			productName = ChoreGoldUITests;
-			productReference = 36BFB92C2D0A9E91009DCF83 /* ChoreGoldUITests.xctest */;
+			productReference = 36ACADF12D1293FE005876BA /* ChoreGoldUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		36BFB9042D0A9E8F009DCF83 /* Project object */ = {
+		36ACADC92D1293FC005876BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					36BFB90B2D0A9E8F009DCF83 = {
-						CreatedOnToolsVersion = 16.1;
+					36ACADD02D1293FC005876BA = {
+						CreatedOnToolsVersion = 16.2;
 					};
-					36BFB9212D0A9E91009DCF83 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 36BFB90B2D0A9E8F009DCF83;
+					36ACADE62D1293FE005876BA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 36ACADD02D1293FC005876BA;
 					};
-					36BFB92B2D0A9E91009DCF83 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 36BFB90B2D0A9E8F009DCF83;
+					36ACADF02D1293FE005876BA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 36ACADD02D1293FC005876BA;
 					};
 				};
 			};
-			buildConfigurationList = 36BFB9072D0A9E8F009DCF83 /* Build configuration list for PBXProject "ChoreGold" */;
+			buildConfigurationList = 36ACADCC2D1293FC005876BA /* Build configuration list for PBXProject "ChoreGold" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 36BFB9032D0A9E8F009DCF83;
+			mainGroup = 36ACADC82D1293FC005876BA;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 36BFB90D2D0A9E8F009DCF83 /* Products */;
+			productRefGroup = 36ACADD22D1293FC005876BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36BFB90B2D0A9E8F009DCF83 /* ChoreGold */,
-				36BFB9212D0A9E91009DCF83 /* ChoreGoldTests */,
-				36BFB92B2D0A9E91009DCF83 /* ChoreGoldUITests */,
+				36ACADD02D1293FC005876BA /* ChoreGold */,
+				36ACADE62D1293FE005876BA /* ChoreGoldTests */,
+				36ACADF02D1293FE005876BA /* ChoreGoldUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		36BFB90A2D0A9E8F009DCF83 /* Resources */ = {
+		36ACADCF2D1293FC005876BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36BFB9202D0A9E91009DCF83 /* Resources */ = {
+		36ACADE52D1293FE005876BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36BFB92A2D0A9E91009DCF83 /* Resources */ = {
+		36ACADEF2D1293FE005876BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		36BFB9082D0A9E8F009DCF83 /* Sources */ = {
+		36ACADCD2D1293FC005876BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36BFB91E2D0A9E91009DCF83 /* Sources */ = {
+		36ACADE32D1293FE005876BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36BFB9282D0A9E91009DCF83 /* Sources */ = {
+		36ACADED2D1293FE005876BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		36BFB9242D0A9E91009DCF83 /* PBXTargetDependency */ = {
+		36ACADE92D1293FE005876BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36BFB90B2D0A9E8F009DCF83 /* ChoreGold */;
-			targetProxy = 36BFB9232D0A9E91009DCF83 /* PBXContainerItemProxy */;
+			target = 36ACADD02D1293FC005876BA /* ChoreGold */;
+			targetProxy = 36ACADE82D1293FE005876BA /* PBXContainerItemProxy */;
 		};
-		36BFB92E2D0A9E91009DCF83 /* PBXTargetDependency */ = {
+		36ACADF32D1293FE005876BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36BFB90B2D0A9E8F009DCF83 /* ChoreGold */;
-			targetProxy = 36BFB92D2D0A9E91009DCF83 /* PBXContainerItemProxy */;
+			target = 36ACADD02D1293FC005876BA /* ChoreGold */;
+			targetProxy = 36ACADF22D1293FE005876BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		36BFB9362D0A9E91009DCF83 /* Debug */ = {
+		36ACADFB2D1293FE005876BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -310,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		36BFB9372D0A9E91009DCF83 /* Release */ = {
+		36ACADFC2D1293FE005876BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -338,7 +338,7 @@
 			};
 			name = Release;
 		};
-		36BFB9382D0A9E91009DCF83 /* Debug */ = {
+		36ACADFD2D1293FE005876BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -401,7 +401,7 @@
 			};
 			name = Debug;
 		};
-		36BFB9392D0A9E91009DCF83 /* Release */ = {
+		36ACADFE2D1293FE005876BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -447,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -457,7 +457,7 @@
 			};
 			name = Release;
 		};
-		36BFB93B2D0A9E91009DCF83 /* Debug */ = {
+		36ACAE002D1293FE005876BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,7 +465,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C986S637P3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chamberlain.ChoreGoldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,7 +476,7 @@
 			};
 			name = Debug;
 		};
-		36BFB93C2D0A9E91009DCF83 /* Release */ = {
+		36ACAE012D1293FE005876BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +484,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C986S637P3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chamberlain.ChoreGoldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,7 +495,7 @@
 			};
 			name = Release;
 		};
-		36BFB93E2D0A9E91009DCF83 /* Debug */ = {
+		36ACAE032D1293FE005876BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -512,7 +512,7 @@
 			};
 			name = Debug;
 		};
-		36BFB93F2D0A9E91009DCF83 /* Release */ = {
+		36ACAE042D1293FE005876BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -532,43 +532,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36BFB9072D0A9E8F009DCF83 /* Build configuration list for PBXProject "ChoreGold" */ = {
+		36ACADCC2D1293FC005876BA /* Build configuration list for PBXProject "ChoreGold" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36BFB9382D0A9E91009DCF83 /* Debug */,
-				36BFB9392D0A9E91009DCF83 /* Release */,
+				36ACADFD2D1293FE005876BA /* Debug */,
+				36ACADFE2D1293FE005876BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36BFB9352D0A9E91009DCF83 /* Build configuration list for PBXNativeTarget "ChoreGold" */ = {
+		36ACADFA2D1293FE005876BA /* Build configuration list for PBXNativeTarget "ChoreGold" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36BFB9362D0A9E91009DCF83 /* Debug */,
-				36BFB9372D0A9E91009DCF83 /* Release */,
+				36ACADFB2D1293FE005876BA /* Debug */,
+				36ACADFC2D1293FE005876BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36BFB93A2D0A9E91009DCF83 /* Build configuration list for PBXNativeTarget "ChoreGoldTests" */ = {
+		36ACADFF2D1293FE005876BA /* Build configuration list for PBXNativeTarget "ChoreGoldTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36BFB93B2D0A9E91009DCF83 /* Debug */,
-				36BFB93C2D0A9E91009DCF83 /* Release */,
+				36ACAE002D1293FE005876BA /* Debug */,
+				36ACAE012D1293FE005876BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36BFB93D2D0A9E91009DCF83 /* Build configuration list for PBXNativeTarget "ChoreGoldUITests" */ = {
+		36ACAE022D1293FE005876BA /* Build configuration list for PBXNativeTarget "ChoreGoldUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36BFB93E2D0A9E91009DCF83 /* Debug */,
-				36BFB93F2D0A9E91009DCF83 /* Release */,
+				36ACAE032D1293FE005876BA /* Debug */,
+				36ACAE042D1293FE005876BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 36BFB9042D0A9E8F009DCF83 /* Project object */;
+	rootObject = 36ACADC92D1293FC005876BA /* Project object */;
 }
