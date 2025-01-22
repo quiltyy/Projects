@@ -1,0 +1,13 @@
+6/25/2024 Financial Aid Purge Meeting
+- Extended to any tables used in academic staging
+    - Academic Staging is the base table for AIDB
+- User Acceptance Testing for Financial Aid Purge
+- On EDWTestPub3.s.uw.edu
+        (Primary Issue) AnalyticInteg (AIDB): 3 tables with record deletions, 2 tables with column updates
+        EDWPresentation (UWProfiles): 2 tables with column updates
+
+- On EDWDevETL6.s.uw.edu\Orchid
+        AcademicStaging (IRAS): 65 tables with record deletions
+
+- What testing do we need done for Student Financial Aid Purge
+        Ready for meeting next week     
