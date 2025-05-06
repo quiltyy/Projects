@@ -1,0 +1,12 @@
+---- Curricular Visualization Meeting 5/6/2025 -----
+
+Complexity Correlation (Additional Columns)
+    - Complexity Perclass  
+    - Complexity Score
+    - Number of Classes
+
+Drop into CSV file and pull into R.
+
+
+Ways to lower the number of classes needed by combining lower credit and higher credit classes
+
