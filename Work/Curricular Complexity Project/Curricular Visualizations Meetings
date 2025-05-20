@@ -1,16 +1,39 @@
----- Curricular Visualization Meeting 5/6/2025 -----
+Curriculum Cartographer: Visualizing the Complexity of University Course Structures.
+    - The Curricular Complexity project, a collaborative effort between the University of Washington Tacoma and Virginia Tech, investigates how quantitative curricular models can support STEM student success and improve program accessibility.  Funded by the National Science Foundation (NSF).
 
-Complexity Correlation (Additional Columns)
-    - Complexity Perclass  
-    - Complexity Score
-    - Number of Classes
-
-Drop into CSV file and pull into R.
+    - When will Ngoc's paper is ready December at the latest. 
 
 
-Ways to lower the number of classes needed by combining lower credit and higher credit classes.
+Summer meetings and/or starting Ngoc early for Visualization:
+    - Once a month meetings
+        - Meetings with Heather for UWT specific data analysis
 
-Summer meetings and/or starting Ngoc early.
+Complexity Correlation:
+    - Developing a data set to allow for comparisons of students outcomes to Curriculum Cartographer
+    - Additional Columns from Complexity Visualization Program
+        - Complexity Perclass  
+        - Complexity Score
+        - Number of Classes
+
+List of programs / departments to look into for Visualizations and how to get buy-in:
+    - What programs would we like to investigate first
+        - Should we have a pilot in each school, or stick to a smaller subset of "good candidates"?
+    - Who from each program / department should we talk to
+        - Either by name or position
+    - Using Ruth Vanderpool and Math as an example of a low complexity designed program structure
+        - What are universal steps that can help other programs can follow to make their program *less complex?*
+    - Using Heather Dillon and Mechanical Engineering as a demonstration of a high complexity designed program structure
+        - Why does Mechanical Engineering have such a high complexity score, and what are some reason a high complexity score is okay?
+
+
+Background / Educational Evidence / Program Code for the Curriculum Cartographer:
+    - Complexity_master.R https://colab.research.google.com/drive/1u9hcHvGU_5qBD2TN7f0XaOwM-uVzkXd_?usp=sharing
+    - The Complexity of University Curricula According to Course Cruciality https://ieeexplore.ieee.org/abstract/document/6915523?casa_token=2wrhjbW9-p0AAAAA:Sanypt057472FL4OykcP7lHebbhoLoKCRin1Dd52pWV9wxkpDqDYnt5tx-ThmQiO89u43_4y
+    - Ngoc's ASEE Paper Draft https://docs.google.com/document/d/1F-LRdEAjFA-TeIF_LKeJJlV0C4AmDUobi9691-KUDhc/edit?tab=t.ly8q65kefh4k
+    - A Markov Decision Processes Modeling for Curricular Analytics https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9680226
+Questions to Answer:
+    - What are the ways to lower the number of classes needed by combining lower credit and higher credit classes?
+    - Should we look at factors like pre-university preparation (Running-Start, AP courses, etc.) and their relation to graduation against the complexity number graduation rates?'
 
 
 
