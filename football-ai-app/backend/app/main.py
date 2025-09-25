@@ -102,3 +102,4 @@ async def run_openai(prompt: str) -> str:
         r = await client.post(url, headers=headers, json=payload)
         r.raise_for_status()
         return r.json()["choices"][0]["message"]["content"].strip()
+1
